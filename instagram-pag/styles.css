@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+}
+
+
+/*div image-cell*/
+#cell {
+  position: absolute;
+  top: 26px;
+  left: 355px;
+}
+
+.forms {
+  position: absolute;
+  top: 44px;
+  width: 350px;
+  height: 406px;
+  right: 355px;
+  border: solid 1px lightgray;
+}
+
+.logo {
+  display: flex;
+  padding: 38px;
+  justify-content: center;
+}
+
+.info1 input {
+  font-family: "Roboto", sans-serif;
+  border: solid 1px lightgray;
+  width: 260px;
+  padding: 10px;
+  margin: 0px 0px 6px 34px;
+  display: flex;
+  text-align: center;
+  background-color: rgb(248, 248, 248);
+  font-size: 12px;
+}
+
+.button-entrar {
+  display: flex;
+  margin: 0px;
+  padding: 10px 0px 0px 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+.enter {
+  margin: 0px !important;
+  position: relative;
+  width: 280px;
+  left: 35px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 9px 0px;
+  background-color: #25ACF6;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+
+}
+
+#button {
+  display: none;
+}
+
+.division {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px 0px 0px;
+}
+
+#text-divisor {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(111, 111, 111);
+  padding: 0px 14px 0px 14px;
+}
+
+.line1,
+.line2 {
+  width: 110px;
+
+}
+
+.other-option {
+  padding: 24px 0px 0px 0px;
+  font-family: "Roboto", sans-serif;
+  display: grid;
+  justify-content: center;
+
+}
+
+.facebook-login {
+  position: relative;
+  font-size: 14px;
+  font-weight: bold;
+  color: #3D5A98;
+  text-decoration: none;
+
+}
+
+.face-icon {
+  position: relative;
+  width: 17px;
+  height: 17px;
+  top: 3px;
+  padding: 0px 7px 0px 0px;
+}
+
+.forget {
+  position: relative;
+  text-align: center;
+  font-size: 12px;
+  text-decoration: none;
+  top: 20px;
+}
+
+.help {
+  display: flex;
+  position: absolute;
+  top: 462px;
+  width: 350px;
+  height: 60px;
+  right: 355px;
+  border: solid 1px lightgray;
+  font-family: "Roboto", sans-serif;
+  font-size: 13.5px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-weight: 300;
+}
+
+.text-2 {
+  text-decoration: none;
+  color: #25ACF6;
+  font-weight: bold;
+
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 540px;
+  width: 350px;
+  height: 60px;
+  right: 355px;
+  text-align: center;
+  justify-content: center;
+}
+
+.logos-app {
+
+  position: relative;
+  top: 12px;
+}
+
+
+.footer {
+  padding: 10px 0px 5px 0px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 10px;
+  align-items: center;
+  width: 100%;
+
+}
+
+.options-footer a {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 0px 12px 0px 0px;
+}
+
+.informations-footer {
+  display: flex;
+  padding: 16px 0px 0px 0px;
+}
+
+.informations-footer a,
+p {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+
+.informations-footer a {
+  padding-right: 12px;
+}
+
+
+
+
+
+.box::placeholder {
+  text-align: left;
+}
