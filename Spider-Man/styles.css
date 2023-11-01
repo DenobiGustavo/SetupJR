@@ -1,0 +1,54 @@
+*{
+  width: 100px;
+  height: 100%; 
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  background-image: linear-gradient(to left, transparent 0%, rgb(0, 0, 0)84%), 
+  linear-gradient(to right, transparent 0%, rgb(0, 0, 0)84%), url("./images/fundo.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+body{
+  display: flex;
+}
+
+header{
+  display: flex;
+  padding-top: 40px;
+  display: flex;
+}
+
+.logo{
+  width: 134px;
+  height: 80px;
+  padding-left: 174px;
+}
+
+nav{
+  display: flex;
+}
+
+.options-cabecalho{
+  display:flex; 
+  color: white;
+  padding-top: 22px;
+  font-size: 13.5px;
+}
+
+.options-cabecalho p{
+  padding-left: 58px;
+}
+
+.image-titulo{
+  margin-left: 174px;
+  width: 400px;
+  height: 240px;
+}
+
+
+
