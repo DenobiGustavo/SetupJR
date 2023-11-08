@@ -1,9 +1,6 @@
 *{
-  width: 100px;
-  height: 100%; 
   margin: 0;
   padding: 0;
-  border: 0;
 }
 
 html {
@@ -11,44 +8,119 @@ html {
   linear-gradient(to right, transparent 0%, rgb(0, 0, 0)84%), url("./images/fundo.jpg");
   background-size: 100% 100%;
   background-attachment: fixed;
+  font-family: 'Mukta', sans-serif;
+  overflow-x: hidden;
+  
 }
 
 body{
-  display: flex;
+ width: 100vw;
+ height: 100vh;
 }
 
 header{
-  display: flex;
-  padding-top: 40px;
+  width: 100vw;
   display: flex;
 }
 
+
 .logo{
-  width: 134px;
-  height: 80px;
-  padding-left: 174px;
+  width: 3rem;
+  height: 5rem;
+  padding-right: 5rem;
 }
 
 nav{
   display: flex;
+  margin-left: 12rem;
+  padding-top: 2.5rem;
+  justify-content: space-between;
+  font-weight: bold;
 }
 
-.options-cabecalho{
-  display:flex; 
+ul{
+  padding-top: 1.25rem;
+  display: flex;
+  list-style: none;
+}
+
+a{
+  padding-right: 5rem;
+  font-size: 0.8125rem;
   color: white;
-  padding-top: 22px;
-  font-size: 13.5px;
+  text-decoration: none;
 }
 
-.options-cabecalho p{
-  padding-left: 58px;
+.images-apps{
+  display: flex;
+  margin-left: 23rem;
+}
+
+.images-apps img{
+  padding: 0.625rem;
+}
+
+#face{
+  padding-top: 1.3125rem;
+}
+
+#yt{
+  padding-top: 1.4375rem;
+  padding-left: 1.125rem;
+  padding-right: 1.5rem;
+}
+
+#tt{
+  padding-top: 1.25rem;
 }
 
 .image-titulo{
-  margin-left: 174px;
-  width: 400px;
-  height: 240px;
+  width: 31.5rem;
+  height: 11.25rem;
 }
+
+.texto-componentes{
+  color: white;
+  font-size: 0.86rem;
+  padding-top: 1.25rem;
+  opacity: 50%;
+}
+
+.botao1{
+  padding-top: 1.875rem;
+  width: 15rem;
+  height: 3.4375rem;
+}
+
+.botao2{
+  padding-top: 1.875rem;
+  width: 15rem;
+  height: 3.4375rem;
+}
+
+.all-componentes{
+  display: flex;
+}
+
+.componentes{
+  display: flex;
+  flex-direction: column;
+  width: 34.5rem;
+  margin-left: 14rem;
+  padding-top: 10rem;
+  text-align: justify;
+}
+
+.image-principal{
+  width: 50rem;
+  position: absolute;
+  z-index: 3;
+  
+}
+
+
+
+
 
 
 
