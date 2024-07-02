@@ -1,0 +1,43 @@
+/* Grid-template-areas */
+
+/*  Passo 1: Adicionar os estilos
+    Passo 2: Adicionar o grid
+    Passo 3: Montar o layout com o grid-template-areas
+    */
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+    .container{
+      background-color: gray; 
+      display: grid;
+      height: 100vh;
+      grid-template-areas: 
+      'header header header'
+      'sidebar content content'
+      'footer footer footer';
+  }
+
+  #header{
+    grid-area: header;
+    background-color: aqua;
+    height: 30vh;
+  }
+  #sidebar{
+    grid-area: sidebar;
+    background-color: blue;
+    height: 50vh;
+  }
+  #content{
+    grid-area: content;
+    background-color: blueviolet;
+    height: 50vh;
+  }
+  #footer{
+    grid-area: footer;
+    background-color: brown;
+    height: 20vh;
+
+  }

@@ -1,0 +1,28 @@
+/* Alinhamento Container*/
+
+/*  Passo 1: Adicionar os estilos
+    Passo 2: Adicionar o grid
+    Passo 3: Definir três colunas com grid-template-columns
+    Passo 4: Apresentar o justfy-content que alinha os items horizontalmente
+    */
+
+    .container{
+      background-color: gray; 
+      border: 3px solid red;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      height: 40vh;
+      justify-content: center;
+      /* justify-content: end; */
+      /* justify-content: start; */
+     align-items: center;
+     /* align-items: start; */
+     /* align-items: end; */
+     
+  }
+  
+  .container div{
+      background-color: blue;
+      padding: 20px;
+      border: 1px solid black;
+  }
