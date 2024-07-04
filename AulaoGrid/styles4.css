@@ -2,10 +2,11 @@
 
 /*  Passo 1: Adicionar os estilos
     Passo 2: Adicionar o grid
-    Passo 3: Modificar a larguras das colunas com o grid-template-columns
-    Passo 4: Definir uma altura específica
-    Passo 4: Modificar a altura de cada coluna com o grid-template-rows
-    Passo 5: Mostrar o gap para as rown e columns!
+    Passo 3: Mostrar a propiedade grid-column, iniciando na coluna 1 e terminando na 3(porém tem que colocar 4)
+    Passo 4: Mostrar a propiedade grid-row, iniciando em alguma linha e terminando em outra.
+    Passo 5: Mostrar a propiedade de alinhamento horizontal justify-self para os itens, end, start, center
+    Passo 6: Mostrar a propiedade de alinhamento vertical align-self...
+
     */
 
     .container{

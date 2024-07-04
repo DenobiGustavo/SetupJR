@@ -1,0 +1,28 @@
+/* Introdução */
+
+/*  Passo 1: Adicionar os estilos
+    Passo 2: Adicionar o flex
+    Passo 3: Modificar o alinhamento horizontal com justify-content
+    Passo 4: Modificar o alinhamento vertical com o align-items
+    */
+    
+  .container{
+  background-color: aqua;
+  border: 2px solid red;
+  padding: 15px;
+  max-width: 300px;
+  height: 300px;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  /* align-items: start; */
+  /* align-items: end; */
+}
+
+.item{
+  background-color: blueviolet;
+  border: 2px solid blue;
+  height: 50px;
+  width: 50px;
+}
