@@ -1,0 +1,47 @@
+/* Introdução */
+
+/*  Passo 1: Adicionar os estilos
+    Passo 2: Mostrar a propiedasde flex-grow, fazendo o item envolver todo o espaço 
+    Passo 3: Mostrar a propiedade flex-basis, determinando um tamanho mínimo fixo
+    passo 4: Mostrar que com a propiedade flex-shrink o item diminui menos que os demais ao diminuir a proporção de tela
+    passo 5: Mostrar a ordenação dos itens a partir da propiedade ordem, a qual evita alterações no cdg html
+    */
+    
+    .container{
+      background-color: aqua;
+      border: 2px solid red;
+      padding: 15px;
+      max-width: 300px;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    
+    .item{
+      background-color: blueviolet;
+      border: 2px solid blue;
+      height: 50px;
+    }
+
+    #item1, #item2{
+      flex-grow: 1;
+    }
+
+    #item3{
+      flex-basis: 30px;
+      flex-shrink: 2;
+    }
+
+    #item1{
+      order: 3;
+    }
+
+    #item2{
+      order: 2;
+    }
+
+    #item3{
+      order: 1;
+    }
